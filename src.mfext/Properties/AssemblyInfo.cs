@@ -12,27 +12,8 @@ b) The BSD License (see BSDL.txt)
 
 */
 
-using System.Reflection;
-using System.Runtime.CompilerServices;
+using System;
 using System.Runtime.InteropServices;
-
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyTitle("MediaFoundation .Net Extension Library")]
-[assembly: AssemblyDescription("An extension assembly the MediaFoundation .Net Library. See http://mfnet.sourceforge.net/")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyVersion("1.0.0.*")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
-#if DEBUG
-[assembly: AssemblyProduct("Debug Version")]
-#else
-[assembly : AssemblyProduct("Release Version")]
-#endif
-[assembly: AssemblyCopyright("GNU Lesser General Public License v2.1 or BSD")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 

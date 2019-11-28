@@ -12,6 +12,7 @@ b) The BSD License (see BSDL.txt)
 
 */
 
+#if ALLOW_UNTESTED_INTERFACES
 ﻿using System;
 
 using MediaFoundation.Misc;
@@ -47,3 +48,4 @@ namespace MediaFoundation
         }
     }
 }
+#endif
