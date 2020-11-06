@@ -1,0 +1,9 @@
+version: 1.0.{build}
+image: Visual Studio 2019
+configuration: Release
+platform: Any CPU
+build_script:
+- ps: >-
+    dotnet build .\src\MediaFoundation-2010.sln -c Release
+
+    dotnet build .\src.mfext\MediaFoundation.Extension-2010.sln -c Release
